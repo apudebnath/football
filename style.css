@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+/* ============= Common area =============== */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* ========== Header Area ============= */
+/* ======== Nav Items ======= */
+.header-container {
+    height: 677px;
+    background-color: #2D25A0;
+
+}
+
+.navigation {
+    width: 1161px;
+    height: 44px;
+    padding-top: 44px;
+    padding-left: 156px;
+}
+
+.nav-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-box .nav-items {}
+
+.nav-box .nav-items a {
+    font-size: 16px;
+    font-weight: 300;
+    text-decoration: none;
+    color: gainsboro;
+    padding: 0 10px;
+}
+
+.nav-box .login {
+    padding-right: 100px;
+}
+
+.nav-box .login a,
+.fa-sign-in-alt {
+    font-size: 16px;
+    color: gainsboro;
+}
+
+/* ======= Header content ========= */
+
+.header-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.header-details {
+    margin-left: 50px;
+}
+
+.header-details h1 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+    color: #ffffff;
+}
+
+.header-details .button {
+    background-color: #E02C6D;
+    padding: 10px 24px;
+}
+
+.header-details .button a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.header-image {
+    margin-left: 50px;
+}
+
+.header-image img {
+    width: 556px;
+    margin-left: 0px;
+}
