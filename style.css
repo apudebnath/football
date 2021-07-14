@@ -175,8 +175,15 @@ main {
 .matches-details {
     display: flex;
     align-items: center;
-    padding-left: 50px;
 
+}
+
+.match-details .image {
+    width: 550px;
+}
+
+.match-details .image img {
+    width: 100%;
 }
 
 .matches-details .match-info {}
@@ -210,13 +217,7 @@ main {
     color: #252323;
 }
 
-.match-details .image {
-    width: 550px;
-}
 
-.match-details .image img {
-    width: 100%;
-}
 
 /* ========== Matches Highlights ========== */
 
@@ -436,7 +437,14 @@ main {
     }
 
     /*-------------------------------------------------------*/
+    .matches-details {
+        display: none;
+        align-items: center;
+        padding-left: 50px;
 
+    }
+
+    /*----------------------------------------*/
     .highlights {
         display: none;
         flex-direction: column;
