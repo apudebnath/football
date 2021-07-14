@@ -168,7 +168,7 @@ main {
 
 /* ================== Match Time ============== */
 .match-time {
-    background-color: rgb(231, 230, 230);
+    background-color: rgb(105, 174, 240);
     padding: 50px 10px;
 }
 
@@ -188,12 +188,23 @@ main {
 
 .matches-details .match-info {}
 
+.matches-details .match-info h2 {
+    font-size: 40px;
+}
+
 .matches-details .match-info .time {
     display: flex;
 }
 
 .matches-details .match-info .time .unit {
+    display: flex;
+    flex-direction: column;
     margin: 20px;
+    align-items: center;
+}
+
+.matches-details .match-info .time .unit h2 {
+    margin: -10px 10px;
 }
 
 .matches-details .match-info .button {
@@ -214,7 +225,7 @@ main {
 
 .matches-details .match-info .button a {
     text-decoration: none;
-    color: #252323;
+    color: #ffffff;
 }
 
 
@@ -440,8 +451,32 @@ main {
     .matches-details {
         display: none;
         align-items: center;
-        padding-left: 50px;
 
+    }
+
+    .match-details .image {
+        width: 550px;
+    }
+
+    .match-details .image img {
+        width: 100%;
+    }
+
+    .matches-details .match-info {}
+
+    .matches-details .match-info h2 {
+        font-size: 40px;
+    }
+
+    .matches-details .match-info .time {
+        display: flex;
+    }
+
+    .matches-details .match-info .time .unit {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+        align-items: center;
     }
 
     /*----------------------------------------*/
