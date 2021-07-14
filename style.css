@@ -449,17 +449,17 @@ main {
 
     /*-------------- Match Time --------------*/
     .matches-details {
-        display: none;
+        display: flex;
         flex-direction: column;
         align-items: center;
 
     }
 
-    .match-details .image {
+    .matches-details .image {
         width: 200px;
     }
 
-    .match-details .image img {
+    .matches-details .image img {
         width: 100%;
     }
 
@@ -478,8 +478,12 @@ main {
     .matches-details .match-info .time .unit {
         display: flex;
         flex-direction: column;
-        margin: 20px;
+        margin: 10px;
         align-items: center;
+    }
+
+    .matches-details .match-info .button {
+        margin-left: 20px;
     }
 
     /*------------------- Highlights   ---------------------*/
@@ -491,34 +495,6 @@ main {
         align-items: center;
         width: 100%;
     }
-
-    /* .highlights-details {
-        padding: 20px 10px;
-
-    } */
-
-    /* .highlights-details h2 {
-        font-size: 32px;
-        line-height: 40px;
-        margin-bottom: 10px;
-    } */
-
-
-    /* .highlights-details .button {
-        background-color: #E02C6D;
-        padding: 10px 24px;
-    } */
-
-    /* .highlights-details .button a {
-        text-decoration: none;
-        color: #ffffff;
-    } */
-
-
-    /* .highlights-image img {
-        margin-left: -41px;
-        margin-top: 20px;
-    } */
 
     .stediums {
         display: grid;
