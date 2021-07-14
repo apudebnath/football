@@ -166,6 +166,58 @@ main {
     color: #6c6c6c;
 }
 
+/* ================== Match Time ============== */
+.match-time {
+    background-color: rgb(231, 230, 230);
+    padding: 50px 10px;
+}
+
+.matches-details {
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+
+}
+
+.matches-details .match-info {}
+
+.matches-details .match-info .time {
+    display: flex;
+}
+
+.matches-details .match-info .time .unit {
+    margin: 20px;
+}
+
+.matches-details .match-info .button {
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    color: rgb(39, 36, 36)
+}
+
+.matches-details .match-info .button:hover {
+    background-color: #e02c6d00;
+    border: 1px solid #e02c6d;
+    border-radius: 2px;
+    padding: 12px 28px;
+    cursor: pointer;
+    transition: background-color 1.5s linear, padding 1.5s linear;
+
+}
+
+.matches-details .match-info .button a {
+    text-decoration: none;
+    color: #252323;
+}
+
+.match-details .image {
+    width: 550px;
+}
+
+.match-details .image img {
+    width: 100%;
+}
+
 /* ========== Matches Highlights ========== */
 
 .highlights {
